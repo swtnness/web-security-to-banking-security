@@ -1,0 +1,26 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Python environments and generated data
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.sqlite3-*
+# Unreviewed captures and private notes
+*.har
+*.burp
+*.log
+private/
+# Operating-system/editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Upload extracted files, never an archive
+*.zip
+
