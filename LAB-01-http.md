@@ -25,3 +25,62 @@ In your daily log: date, target, method, actual status, two nonsensitive respons
 
 [Return to Week 1](../curriculum/WEEK-01.md)
 
+## My Lab Results — Vannesa
+
+**Date:** 2026-10-11  
+**Week:** 1  
+**Lab:** 01 — Observe an HTTP Request  
+**Target:** https://example.com/  
+**Tools:** Google Chrome Developer Tools — Network tab  
+**Time spent:** [Enter actual minutes]
+
+### Goal
+Understand how a browser communicates with a web server by inspecting a real HTTP request and response.
+
+### Actions Performed
+1. Opened example.com in Google Chrome.
+2. Opened Developer Tools and selected the Network tab.
+3. Inspected the main document request.
+4. Identified the request URL, HTTP method, status code, and response headers.
+5. Investigated the meaning of the 304 Not Modified response.
+
+### Expected Result
+I expected the browser to send a GET request and receive an HTTP response containing the webpage, possibly with a 200 OK status.
+
+### Actual Result
+- Request URL: https://example.com/
+- Request Method: GET
+- Status Code: 304 Not Modified
+- Remote Address: 172.66.147.243:443
+- Response Header 1: Age: 9015
+- Response Header 2: Allow: GET, HEAD
+- Additional Header: Cf-Cache-Status: HIT
+
+The server returned a 304 Not Modified response rather than a 200 OK response. This indicated that a previously cached representation could be reused.
+
+### Client vs. Server
+- Client: The browser initiated the HTTP GET request.
+- Server: The remote endpoint responded with an HTTP status code and response headers.
+- Browser: The browser can reuse cached content after successful cache validation.
+
+### Explanation — In My Own Words
+When I opened example.com, my browser sent an HTTP GET request to retrieve the webpage. I observed a 304 Not Modified status instead of a 200 OK response. This means the browser could reuse a previously stored version of the resource. The response headers also provided information about caching and supported HTTP methods. I learned that successful HTTP communication does not always require downloading the complete webpage again.
+
+### Security Perspective
+HTTPS protects data transmitted between the browser and the remote server. HTTP caching improves performance, but sensitive information requires appropriate cache-control policies. A successful HTTP response does not guarantee that a web application is completely secure.
+
+### Evidence
+Chrome Developer Tools screenshot — to be saved as `labs/day-01-http-exchange.png`.
+
+### Pending Verification
+Inspect the Response or Preview tab and compare the available content with the visible webpage.
+
+### Blocker / Question
+What is the difference between browser caching and CDN caching?
+
+### Next Action
+Complete the Response/Preview inspection, then study HTTP methods, URLs, status codes, and request headers.
+
+### Help Used
+Walkthrough — ChatGPT cybersecurity mentoring.
+
