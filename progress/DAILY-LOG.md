@@ -17,6 +17,54 @@ Topic and resource: How the Web Works — MDN
 - Next action: Review HTTP requests and responses in the browser Network tab and study HTTP methods, headers, cookies, and sessions.
 - Help used: walkthrough
 
+## Week 1 — Day 2: URLs and HTTP Communication
+
+**Date:** 2026-10-14  
+**Week / Day:** Week 1 / Day 2  
+**Minutes studied:** 80  
+**Topic and resource:** URL Anatomy, HTTP Methods and Status Codes — [MDN HTTP Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview)
+
+### Goal
+Understand the structure of a URL, distinguish HTTP methods, interpret HTTP status codes, and explain communication between a browser and a server.
+
+### Action
+- Studied HTTP fundamentals and URL components with guided explanations.
+- Wrote three answers in English about GET vs POST, HTTP 403 Forbidden, and URL fragments.
+- Received technical corrections and reviewed misconceptions.
+- Completed the Day 2 correction quiz.
+
+### Expected Result
+I expected to understand how URLs identify resources, how HTTP methods work, and how servers communicate the results of requests through status codes.
+
+### Actual Result
+I correctly understood that GET retrieves resources and POST submits data for processing. I initially believed that POST parameters could not appear in URLs, but learned that both methods can use query parameters.
+
+I explained that HTTP 403 indicates access is forbidden and does not necessarily mean a password is incorrect.
+
+I also learned that URL fragments are normally processed by the browser rather than sent as part of the HTTP request target.
+
+### Evidence
+- Handwritten answers to three HTTP questions.
+- Completed correction quiz.
+- [Add repository links to saved notes or evidence.]
+
+### Explanation
+HTTP is an application-layer protocol that defines communication between clients and servers. URLs identify resources and may contain paths, query parameters, and fragments. HTTP methods describe requested operations, while status codes communicate the outcome of requests.
+
+### Defense
+Web servers must enforce authentication, authorization, and input validation independently of the client. HTTPS protects HTTP data in transit, but HTTP methods alone do not guarantee security.
+
+### Blocker / Question
+I need more practice distinguishing URL query parameters from HTTP request bodies.
+
+### Next Action
+Complete and save the remaining Day 2 practical exercises, then study the DNS, TCP, TLS, and HTTP communication flow for Day 3.
+
+### Help Used
+Walkthrough — ChatGPT cybersecurity mentoring.
+
+**Status:** Theory and correction quiz completed; remaining practical evidence to verify.
+
 ## Entry template
 
 **Date:** YYYY-MM-DD  
