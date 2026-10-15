@@ -14,7 +14,7 @@ Update these counts manually after meeting the checkpoints. Reading the files do
 | Done | Day | Task | Date / minutes | Evidence I created |
 |---|---|---|---|---|
 | [x] | 1 | Observe one HTTP exchange | 2026-10-11 / 75 min | labs/day-01-http-exchange.png |
-| [ ] | 2 | Explain URLs, methods and statuses | 2026-10-14 / [70] | [Day 2 notes] |
+| [x] | 2 | Explain URLs, methods and statuses | 2026-10-14 / [90] | [Day 2 notes](notes/day-02-http.md) |  
 | [ ] | 3 | Draw DNS/connection/TLS/request flow | — | — |
 | [ ] | 4 | Create a local HTML page | — | — |
 | [ ] | 5 | Explain cookies and signed-in state | — | — |
