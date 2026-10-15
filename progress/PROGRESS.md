@@ -50,7 +50,9 @@ Status choices: not started / in progress / blocked / complete. Only change [ ] 
 
 | Done | Lab | Evidence type | Actual result / evidence link | Help used |
 |---|---|---|---|---|
-| [ ] | [01](../labs/LAB-01-http.md) | Observation | Not run | — |
+
+| [x] | [01](labs/lab-01.md) | Observation | GET https://example.com/ — 304 Not Modified; Chrome DevTools screenshot | Walkthrough |
+
 | [ ] | [02](../labs/LAB-02-local-web.md) | Local code | Not run | — |
 | [ ] | [03](../labs/LAB-03-threat-model.md) | Design | Not run | — |
 | [ ] | [04](../labs/LAB-04-sql.md) | Hosted + local | Not run | — |
