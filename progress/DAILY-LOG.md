@@ -21,49 +21,49 @@ Topic and resource: How the Web Works — MDN
 
 **Date:** 2026-10-14  
 **Week / Day:** Week 1 / Day 2  
-**Minutes studied:** 80  
-**Topic and resource:** URL Anatomy, HTTP Methods and Status Codes — [MDN HTTP Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview)
+**Minutes studied:** [Enter actual minutes]  
+**Topic and resource:** URL Anatomy, HTTP Methods, HTTP Status Codes — MDN HTTP Overview
 
 ### Goal
-Understand the structure of a URL, distinguish HTTP methods, interpret HTTP status codes, and explain communication between a browser and a server.
+Understand how URLs identify web resources and how HTTP clients and servers communicate using requests, responses, headers, and status codes.
 
 ### Action
-- Studied HTTP fundamentals and URL components with guided explanations.
-- Wrote three answers in English about GET vs POST, HTTP 403 Forbidden, and URL fragments.
-- Received technical corrections and reviewed misconceptions.
-- Completed the Day 2 correction quiz.
+- Studied HTTP fundamentals and URL structure.
+- Completed three written questions about GET vs POST, HTTP 403, and URL fragments.
+- Passed a correction quiz.
+- Identified the six components of an example URL.
+- Constructed an illustrative HTTP/1.1 GET request and response with two headers each.
 
 ### Expected Result
-I expected to understand how URLs identify resources, how HTTP methods work, and how servers communicate the results of requests through status codes.
+I expected to understand URL components and independently construct a basic HTTP request and response.
 
 ### Actual Result
-I correctly understood that GET retrieves resources and POST submits data for processing. I initially believed that POST parameters could not appear in URLs, but learned that both methods can use query parameters.
+I successfully identified the scheme, hostname, port, path, query, and fragment.
 
-I explained that HTTP 403 indicates access is forbidden and does not necessarily mean a password is incorrect.
+I constructed a correctly structured GET request and a successful HTTP response. I made a spelling error in the Content-Length header and corrected it.
 
-I also learned that URL fragments are normally processed by the browser rather than sent as part of the HTTP request target.
+I also learned that POST requests may contain URL query parameters, HTTP 403 does not necessarily prove successful authentication, and fragments are normally handled by the browser.
 
 ### Evidence
-- Handwritten answers to three HTTP questions.
-- Completed correction quiz.
-- [Add repository links to saved notes or evidence.]
+- Handwritten HTTP questions and corrections.
+- Completed URL anatomy exercise.
+- Illustrative HTTP request and response.
+- [Add a relative link to the saved Day 2 notes.]
 
 ### Explanation
-HTTP is an application-layer protocol that defines communication between clients and servers. URLs identify resources and may contain paths, query parameters, and fragments. HTTP methods describe requested operations, while status codes communicate the outcome of requests.
+A URL identifies a resource and contains components such as a scheme, hostname, path, and optional parameters. An HTTP client sends a request containing a method and headers. The server processes the request and sends an HTTP response with a status code, headers, and possibly a response body.
 
 ### Defense
-Web servers must enforce authentication, authorization, and input validation independently of the client. HTTPS protects HTTP data in transit, but HTTP methods alone do not guarantee security.
+HTTPS protects HTTP communication in transit. Servers must enforce authentication, authorization, and input validation. A successful HTTP response does not guarantee that the application is secure.
 
 ### Blocker / Question
-I need more practice distinguishing URL query parameters from HTTP request bodies.
+I want to understand how HTTP request bodies differ from URL query parameters.
 
 ### Next Action
-Complete and save the remaining Day 2 practical exercises, then study the DNS, TCP, TLS, and HTTP communication flow for Day 3.
+Study and draw the DNS, TCP, TLS, and HTTP communication flow for Day 3.
 
 ### Help Used
 Walkthrough — ChatGPT cybersecurity mentoring.
-
-**Status:** Theory and correction quiz completed; remaining practical evidence to verify.
 
 ## Entry template
 
